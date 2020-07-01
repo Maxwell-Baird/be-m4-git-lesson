@@ -1,5 +1,5 @@
 class ItemsController < ApplicationController
-
+//RESTFUL
   def index
     @items = Item.all
   end
