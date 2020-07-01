@@ -1,4 +1,5 @@
 class CartsController < ApplicationController
+//restful
   def create
     item = Item.find(params[:item_id])
     @cart.add_item(item.id)
